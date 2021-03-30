@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+#headers {
+    /* border: solid hotpink 4px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#navContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(173, 173, 173, 0.603);
+}
+#navBar {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+#bkk {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                    url('images/bkkBackgorund.jpeg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+h1 {
+    margin: 0;
+}
+#bkkContent{
+    /* border: solid green 10px; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bkkIntro{
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    /* border: royalblue solid 4px; */
+    margin-bottom: 10px;
+}
+#mainImg {
+    /* border: solid orange 4px; */
+    width: 50%;
+    height: 100%;
+    padding: 2px;
+}
+#mainText {
+    /* border: solid purple 4px; */
+    font-style: italic;
+    padding: 2px;
+    font-size: large;
+}
+#bangkokImages {
+    display: flex;
+    /* border: hotpink 4px solid; */
+    width: 90vw;
+    height: 50%;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(231, 231, 231, 0.726);
+}
+.imageCollection{
+    width: 300px;
+    height: 100%;
+    padding: 10px;
+}

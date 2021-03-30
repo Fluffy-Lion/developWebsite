@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+body {
+    background-color: rgb(204, 251, 236);
+}
+
+h1 {
+    font-family: 'Train One', cursive;
+    color: rgb(154, 228, 172);
+    font-size: 100px;
+    padding: 50px;
+    margin: 50px 10px;
+}
+#selection{
+    border: solid green 4px;
+    display: flex;
+    height: 900px;
+    justify-content: space-evenly;
+}
+#firstBlock{
+    background-image: linear-gradient(to bottom right, red, blue);
+    width: 100px;
+}
+#secondBlock{
+    background-image: linear-gradient(to bottom right, red, blue);
+    width: 100px;
+}
+#thirdBlock{
+    background-image: linear-gradient(to bottom right, red, blue);
+    width: 100px;
+}
+#fourthBlock{
+    background-image: linear-gradient(to bottom right, red, blue);
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+#akira{
+    /* background-image: url("images/akira.jpg"); */
+}
+
+#characters{
+    border: solid purple 4px;
+}
+
+#tetsuo {
+    border: solid lime 4px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#kaneda {
+    border: solid red 4px;
+}
+
+#kei {
+    border: solid blue 4px;
+}
+
+nav {
+    border: solid hotpink 4px;
+    display: flex;
+    justify-content: space-between;
+}
